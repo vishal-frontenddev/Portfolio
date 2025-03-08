@@ -749,8 +749,8 @@ body {
 .work-row-img {
     height: 70%;
     width: 90%;
-   border-radius: 15px;
-   overflow: hidden;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .work-row-img  img {
     height: 100%;
