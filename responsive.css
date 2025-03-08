@@ -169,6 +169,10 @@
         height: 250px;
     }
 
+    .name {
+        display: none;
+    }
+
     .content-page {
         margin: auto;
         width: 100%;
