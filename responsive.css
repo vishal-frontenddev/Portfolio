@@ -77,8 +77,9 @@
     }
 
     .resume-btn {
-        padding: 12px 15px;
+        /* padding: 12px 18px; */
         font-size: 16px;
+        
     }
 
     /* about-page-end */
@@ -113,9 +114,7 @@
     .preview-box h2 {
         font-size: 18px;
     }
-    .work-row-2-cont {
-       margin: 20px 0;
-    }
+    
     .work-cont {
         margin: 0;
     }
@@ -302,7 +301,9 @@
     .work-row-2-cont {
         flex-direction: column;
     }
-
+    /* .work-row-2-cont {
+        padding: 20px;
+     } */
 
     /* work-end */
 
