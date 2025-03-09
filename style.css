@@ -709,7 +709,7 @@ body {
     opacity: 0;
 }
 .live-preview h2 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .live-preview a {
@@ -723,18 +723,21 @@ body {
 .work-row-2 {
     height: auto;
     width: 100%;
-
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 50px 0;
 }
 .work-row-2-cont {
     height: auto;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color: #333;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
 }
 .work-row-images {
