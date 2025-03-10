@@ -23,14 +23,11 @@ hamb.addEventListener("click", () => {
 })
 
 
-
-let home = document.querySelector(".home-link")
 let about = document.querySelector(".about-link")
 let resume = document.querySelector(".resume-link")
 let work = document.querySelector(".work-link")
 let contact = document.querySelector(".contact-link")
 
-let homePage = document.querySelector(".home-page")
 let aboutPage = document.querySelector(".about-page")
 let resumePage = document.querySelector(".resume-page")
 let workPage = document.querySelector(".work-page")
@@ -211,4 +208,6 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 50,
         },
     },
+
+    
 });
