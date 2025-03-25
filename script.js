@@ -179,6 +179,19 @@ btnClick.addEventListener('click', () => {
 })
 
 
+// loader
+// let randomTime = Math.floor(Math.random() * 3000) + 3000;
+// console.log(randomTime);
+
+let loaderPage = document.querySelector('.loader');
+
+setTimeout(() => {
+
+    loaderPage.style.visibility = "hidden"
+
+},6000);
+
+
 
 // swipper slider
 
@@ -209,5 +222,5 @@ var swiper = new Swiper(".mySwiper", {
         },
     },
 
-    
+
 });
