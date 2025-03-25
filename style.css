@@ -124,7 +124,7 @@ body {
     gap: 10px;
   }
   
-  .socialContainer {
+  .social-container {
     width: 40px;
     height: 40px;
     background-color: rgb(44, 44, 44);
@@ -136,28 +136,28 @@ body {
     border-radius: 5px;
   }
 
-  .containerOne:hover {
+  .container-one:hover {
     background-color: #808080;
     transition-duration: .3s;
   }
 
-  .containerTwo:hover {
+  .container-two:hover {
     background-color: #00acee;
     transition-duration: .3s;
   }
 
-  .containerThree:hover {
+  .container-three:hover {
     background-color: #d62976;
     /* background-color: #0072b1; */
     transition-duration: .3s;
   }
 
-  .containerFour:hover {
+  .container-four:hover {
     background-color: #ff0000;
     transition-duration: .3s;
   }
   
-  .socialSvg {
+  .social-svg {
     height: 100%;
     width: 100%;
     display: flex;
@@ -168,14 +168,14 @@ body {
 
   }
   
-  .socialSvg .fa-brands {
+  .social-svg .fa-brands {
     color: #fff;
     font-size: 23px;
     border: none;
     outline: none;
   }
   
-  .socialContainer:hover .socialSvg {
+  .social-container:hover .social-svg {
     animation: slide-in-top 0.3s both;
   }
   
