@@ -28,22 +28,21 @@
         padding: 12px 0 0 25px;
     }
 
-    .foter-icon {
-        width: 85%;
-        gap: 10px;
-    }
-
-    .footer-icon-box {
-        height: 30px;
-        width: 32px;
-    }
-
-    .foter-icon a i {
-        font-size: 20px;
-    }
+   .card {
+    padding: 0;
+   }
+   .social-container {
+    height: 27px;
+    width: 27px;
+   }
+   .social-svg .fa-brands {
+    font-size: 18px;
+   }
 
     .footer-text {
-        font-size: 14px;
+        font-size: 12px;
+        padding: 5px;
+        margin-top: 5px;
     }
 
     /* side-bar-end */
@@ -65,7 +64,7 @@
     }
 
     .my-self h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .my-name {
@@ -73,11 +72,10 @@
     }
 
     .my-self p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .resume-btn {
-        /* padding: 12px 18px; */
         font-size: 16px;
         
     }
@@ -105,7 +103,7 @@
 
     /* work-page */
     .swiper {
-        height: 380px;
+        height: 350px;
     }
     .work-row-images {
         height: 350px;
@@ -118,8 +116,10 @@
     .work-cont {
         margin: 0;
     }
-
+    
     /* work-page */
+
+
 
     /* contact */
 
