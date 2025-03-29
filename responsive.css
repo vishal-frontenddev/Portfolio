@@ -3,7 +3,7 @@
 
     /* side-bar */
     .side-bar {
-        width: 12%;
+        width: 14%;
     }
 
     .side-img {
@@ -47,20 +47,34 @@
 
     /* side-bar-end */
 
+    .content-page {
+        width: 86%;
+        /* margin-left: 12%; */
+        position: absolute;
+        right: 0;
+    }
+
 
     /* about-page */
     .about-cont {
         margin-top: 70px;
+       
+       
     }
 
     .my-self {
-        width: 55%;
+        width: 60%;
+        /* background-color: red; */
+    }
+    .my-self p {
+        margin: 20px 0px 30px 0px;
     }
 
     .my-img {
-        height: 460px;
-        /* width: 40%; */
+        height: 440px;
+        width: 500px;
         margin-left: 40px;
+        background-color: yellow;
     }
 
     .my-self h2 {
@@ -90,10 +104,14 @@
     }
 
     .resume-row {
+        width: 90%;
         gap: 30px;
     }
 
     .skill-cont {
+        width: 90%;
+    }
+    .skill-row {
         width: 90%;
     }
 
@@ -124,7 +142,8 @@
     /* contact */
 
     .cont-row {
-        width: 90%;
+        width: 85%;
+        margin-top: 45px;
     }
 
     .contact-cont {
@@ -135,8 +154,16 @@
     .contact-img {
         padding: 0;
     }
-
+     
 }
+/* laptop-end */
+
+
+
+
+
+
+
 
 /* ----------- Mobile view ---------- */
 
@@ -171,6 +198,18 @@
         height: 250px;
     }
 
+    .social-container {
+        height: 40px;
+        width: 40px;
+    }
+   .social-svg .fa-brands {
+        font-size: 23px;
+    }
+    .footer-text {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
     .name {
         display: none;
     }
@@ -187,6 +226,7 @@
 
 
     /* about-page */
+
     .about-page {
         overflow: hidden;
         z-index: 999;
@@ -206,7 +246,6 @@
     .my-self {
         height: auto;
         width: 100%;
-        /* background-color: red; */
     }
 
     .self {
@@ -221,7 +260,6 @@
         font-size: 28px;
         text-align: center;
         margin: 0;
-        /* background-color: green; */
         margin-top: -20px;
    
     }
@@ -294,7 +332,10 @@
 
     /* resume-end */
 
+
+
     /* work-start*/
+    
     .last-project {
         font-size: 22px;
         font-weight: 500;
@@ -314,13 +355,14 @@
     .work-row-2-cont {
         flex-direction: column;
     }
-    /* .work-row-2-cont {
-        padding: 20px;
-     } */
+  
 
     /* work-end */
 
     /* contact-page */
+    .contact-page {
+        height: auto;
+    }
     .cont-row {
         height: auto;
         margin: 0;
@@ -333,14 +375,20 @@
 
     .contact-detail {
         height: auto;
-        width: 90%;
+        width: 93%;
         gap: 10px;
     }
 
     .contact-detail h1 {
         margin-top: 10px;
-        font-size: 35px;
+        font-size: 30px;
     }
+    .contact-detail p {
+        font-size: 16px;
+    }
+    /* .num .emm {
+        font-size: 14px;
+    } */
 
     .contact-images {
         display: flex;
