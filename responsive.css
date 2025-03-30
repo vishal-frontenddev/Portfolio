@@ -355,10 +355,18 @@
     .work-row-2-cont {
         flex-direction: column;
     }
-  
+    
+    .live-preview {
+        height: fit-content;
+        opacity: 1;
+        backdrop-filter: blur(10px);
+        position: absolute;
+        bottom: 50px;
+    }
 
     /* work-end */
 
+    
     /* contact-page */
     .contact-page {
         height: auto;
@@ -398,10 +406,4 @@
 
     /* contact-page-end */
 
-
-
-    .live-preview {
-        opacity: 1;
-        backdrop-filter: blur(10px);
-    }
 }
