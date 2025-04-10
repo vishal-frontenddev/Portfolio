@@ -28,16 +28,18 @@
         padding: 12px 0 0 25px;
     }
 
-   .card {
-    padding: 0;
-   }
-   .social-container {
-    height: 27px;
-    width: 27px;
-   }
-   .social-svg .fa-brands {
-    font-size: 18px;
-   }
+    .card {
+        padding: 0;
+    }
+
+    .social-container {
+        height: 27px;
+        width: 27px;
+    }
+
+    .social-svg .fa-brands {
+        font-size: 18px;
+    }
 
     .footer-text {
         font-size: 12px;
@@ -58,14 +60,15 @@
     /* about-page */
     .about-cont {
         margin-top: 70px;
-       
-       
+
+
     }
 
     .my-self {
         width: 60%;
         /* background-color: red; */
     }
+
     .my-self p {
         margin: 20px 0px 30px 0px;
     }
@@ -74,7 +77,6 @@
         height: 440px;
         width: 500px;
         margin-left: 40px;
-        background-color: yellow;
     }
 
     .my-self h2 {
@@ -91,7 +93,7 @@
 
     .resume-btn {
         font-size: 16px;
-        
+
     }
 
     /* about-page-end */
@@ -111,6 +113,7 @@
     .skill-cont {
         width: 90%;
     }
+
     .skill-row {
         width: 90%;
     }
@@ -123,18 +126,20 @@
     .swiper {
         height: 350px;
     }
+
     .work-row-images {
         height: 350px;
         width: 330px;
     }
+
     .preview-box h2 {
         font-size: 18px;
     }
-    
+
     .work-cont {
         margin: 0;
     }
-    
+
     /* work-page */
 
 
@@ -142,20 +147,41 @@
     /* contact */
 
     .cont-row {
+        height: 450px;
         width: 85%;
         margin-top: 45px;
     }
 
     .contact-cont {
+        height: 85%;
         width: 90%;
         gap: 30px;
+    }
+    
+    .contact-icn {
+        margin-top: 10px;
+    }
+
+    .contact-icn .social-container {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact-icn .social-svg i {
+        font-size: 30px;
+    }
+    .contact-detail {
+        gap: 15px;
+        margin-top: 20px;
+        width: 40%;
     }
 
     .contact-img {
         padding: 0;
     }
-     
+
 }
+
 /* laptop-end */
 
 
@@ -169,6 +195,8 @@
 
 @media screen and (max-width: 800px) {
 
+
+    /* side */
 
     .mob-hamb {
         display: flex;
@@ -202,9 +230,11 @@
         height: 40px;
         width: 40px;
     }
-   .social-svg .fa-brands {
+
+    .social-svg .fa-brands {
         font-size: 23px;
     }
+
     .footer-text {
         font-size: 16px;
         margin-top: 8px;
@@ -223,6 +253,9 @@
         width: 100%;
         height: auto;
     }
+
+    /* side-end */
+
 
 
     /* about-page */
@@ -261,7 +294,7 @@
         text-align: center;
         margin: 0;
         margin-top: -20px;
-   
+
     }
 
     .my-name {
@@ -291,6 +324,11 @@
         width: 340px;
         margin: 0;
     }
+
+    /* about-end */
+
+
+
 
     /* resume-page */
     .resume-page {
@@ -334,8 +372,10 @@
 
 
 
+
+
     /* work-start*/
-    
+
     .last-project {
         font-size: 22px;
         font-weight: 500;
@@ -349,13 +389,15 @@
         margin: 7px 0;
         border-radius: 4px;
     }
-    .work-cont{
+
+    .work-cont {
         margin: 0;
     }
+
     .work-row-2-cont {
         flex-direction: column;
     }
-    
+
     .live-preview {
         height: fit-content;
         opacity: 1;
@@ -366,14 +408,19 @@
 
     /* work-end */
 
-    
+
+
+
     /* contact-page */
     .contact-page {
         height: auto;
+        padding-bottom: 30px;
     }
+
     .cont-row {
         height: auto;
         margin: 0;
+        width: 90%;
     }
 
     .contact-cont {
@@ -391,16 +438,19 @@
         margin-top: 10px;
         font-size: 30px;
     }
+
     .contact-detail p {
         font-size: 16px;
     }
-    /* .num .emm {
-        font-size: 14px;
-    } */
+
+    .contact-img {
+        height: auto;
+        width: 100%;
+    }
 
     .contact-images {
-        display: flex;
-        justify-content: center;
+        height: 200px;
+        width: 90%;
         padding-bottom: 20px;
     }
 
