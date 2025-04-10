@@ -749,6 +749,22 @@ body {
     transform: translateX(-50%);
 }
 
+.my-certificate {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.certificate {
+    height: auto;
+    width: 800px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.certificate img {
+    width: 100%;
+    object-fit: cover;
+}
 /* resume-page-end */
 
 
@@ -1058,7 +1074,7 @@ body {
     top: 0;
     left: 0;
     z-index: 100000000;
-    background-color: #212121da;
+    background-color: #000000;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
@@ -1066,124 +1082,65 @@ body {
 
 }
 
-/* From Uiverse.io by alexruix */
-.terminal-loader {
-    width: 180px;
-    height: 50px;
-    position: relative;
-}
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 8em;
+    gap: 10px;
+  }
 
-
-.loader-text {
-    position: absolute;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    color: #C8B6FF;
-    animation: text_713 3.5s ease both infinite;
-    font-size: 24px;
-    letter-spacing: 1px;
-}
-
-.load {
-    background-color: #9A79FF;
-    border-radius: 50px;
-    display: block;
-    height: 16px;
-    width: 16px;
-    bottom: -8px;
-    position: absolute;
-    transform: translateX(64px);
-    animation: loading_713 3.5s ease both infinite;
-}
-
-.load::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: #D1C2FF;
-    border-radius: inherit;
-    animation: loading2_713 3.5s ease both infinite;
-}
-
-@keyframes text_713 {
+  .loading-spinner h2 {
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .loading-spinner-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loading-spinner-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #db9334;
+    margin: 0 5px;
+    animation: loading-spinner 1s ease-in-out infinite;
+  }
+  
+  .loading-spinner-circle:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .loading-spinner-circle:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .loading-spinner-circle:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .loading-spinner-circle:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes loading-spinner {
     0% {
-        letter-spacing: 1px;
-        transform: translateX(0px);
+      transform: scale(1);
+      opacity: 1;
     }
-
-    40% {
-        letter-spacing: 2px;
-        transform: translateX(26px);
+  
+    20% {
+      transform: scale(1.5);
+      opacity: 0.5;
     }
-
-    80% {
-        letter-spacing: 1px;
-        transform: translateX(32px);
-    }
-
-    90% {
-        letter-spacing: 2px;
-        transform: translateX(0px);
-    }
-
+  
     100% {
-        letter-spacing: 1px;
-        transform: translateX(0px);
+      transform: scale(1);
+      opacity: 1;
     }
-}
-
-@keyframes loading_713 {
-    0% {
-        width: 16px;
-        transform: translateX(0px);
-    }
-
-    40% {
-        width: 100%;
-        transform: translateX(0px);
-    }
-
-    80% {
-        width: 16px;
-        transform: translateX(64px);
-    }
-
-    90% {
-        width: 100%;
-        transform: translateX(0px);
-    }
-
-    100% {
-        width: 16px;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes loading2_713 {
-    0% {
-        transform: translateX(0px);
-        width: 16px;
-    }
-
-    40% {
-        transform: translateX(0%);
-        width: 80%;
-    }
-
-    80% {
-        width: 100%;
-        transform: translateX(0px);
-    }
-
-    90% {
-        width: 80%;
-        transform: translateX(15px);
-    }
-
-    100% {
-        transform: translateX(0px);
-        width: 16px;
-    }
-}
+  }
+  

@@ -368,6 +368,15 @@
         margin-bottom: 50px;
     }
 
+    .my-certificate {
+        font-size: 14px;
+        padding: 0 15px;
+        margin: 8px 0px;
+    }
+    .certificate {
+        width: 90%;
+    }
+
     /* resume-end */
 
 
