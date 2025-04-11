@@ -189,7 +189,7 @@ setTimeout(() => {
 
     loaderPage.style.visibility = "hidden"
 
-},6000);
+},4000);
 
 
 
