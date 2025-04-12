@@ -313,7 +313,7 @@
         padding: 10px 20px;
         font-size: 14px;
         position: absolute;
-        bottom: 20px;
+        bottom: 120px;
         left: 50%;
         transform: translateX(-50%);
         white-space: nowrap;
@@ -325,6 +325,28 @@
         margin: 0;
     }
 
+    .font-container {
+        height: 80px;
+        margin: 0;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .b-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .first {
+        font-size: 30px;
+    }
+    .brand-card-slide {
+        height: 100%;
+        width: 100%;
+    }
     /* about-end */
 
 
@@ -369,9 +391,10 @@
     }
 
     .my-certificate {
-        font-size: 14px;
+        font-size: 20px;
         padding: 0 15px;
         margin: 8px 0px;
+        text-align: center;
     }
     .certificate {
         width: 90%;
