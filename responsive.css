@@ -157,7 +157,7 @@
         width: 90%;
         gap: 30px;
     }
-    
+
     .contact-icn {
         margin-top: 10px;
     }
@@ -170,6 +170,7 @@
     .contact-icn .social-svg i {
         font-size: 30px;
     }
+
     .contact-detail {
         gap: 15px;
         margin-top: 20px;
@@ -332,21 +333,25 @@
         display: flex;
         justify-content: center;
         align-items: center;
-      
+
     }
+
     .b-slider {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 10px;
     }
+
     .first {
         font-size: 30px;
     }
+
     .brand-card-slide {
         height: 100%;
         width: 100%;
     }
+
     /* about-end */
 
 
@@ -396,6 +401,7 @@
         margin: 8px 0px;
         text-align: center;
     }
+
     .certificate {
         width: 90%;
     }
@@ -417,7 +423,7 @@
     .line {
         height: 5px;
         width: 140px;
-        background-color: red;
+        background-color: #00a3e1;
         margin: 7px 0;
         border-radius: 4px;
     }
