@@ -310,7 +310,12 @@ body {
 .my-self p {
     font-size: 18px;
     color: #fff;
-    margin: 25px 0px 40px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+.uiux{
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .resume-btn {
@@ -393,7 +398,9 @@ body {
     padding: 10px 0px;
     background-color: #5a5858b4;
     overflow: hidden;
-    margin-top: 120px;
+    /* margin-top: 100px; */
+    position: absolute;
+    bottom: 0;
 }
 
 .first {
@@ -706,7 +713,7 @@ body {
 }
 
 .figma.prog-5 {
-    width: 55%;
+    width: 70%;
 }
 
 .swipper-js {
@@ -720,7 +727,7 @@ body {
 }
 
 .swipper-js.prog-6 {
-    width: 80%;
+    width: 85%;
 }
 
 .react {
@@ -747,7 +754,7 @@ body {
 }
 
 .jquery.prog-8 {
-    width: 60%;
+    width: 70%;
 }
 
 .talwind {
@@ -761,7 +768,7 @@ body {
 }
 
 .talwind.prog-9 {
-    width: 85%;
+    width: 70%;
 }
 
 .wordpress {
@@ -775,7 +782,7 @@ body {
 }
 
 .wordpress.prog-10 {
-    width: 55%;
+    width: 50%;
 }
 
 .skill-percent {
@@ -1113,7 +1120,7 @@ body {
     top: 0;
     left: 0;
     z-index: 100000000;
-    background-color: #000000;
+    background-color: #00000080;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: center;
