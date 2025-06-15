@@ -977,6 +977,10 @@ body {
     text-decoration: none;
     color: rgb(202, 135, 11);
 }
+.preview-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
 
 /* work-page-end */
 
